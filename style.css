@@ -1,0 +1,54 @@
+header{
+background-image:linear-gradient(to top, rgba(0,0,0,0.8),rgba(0, 0, 0, 0.2)), url(images/movie.png);
+background-size:cover;
+background-position:center top;
+background-attachment:fixed;
+}
+body{
+    font-family: 'Hi Melody', sans-serif;}
+h1,h2,h3,h4,p {font-family: 'Hi Melody', fantasys;}
+
+/*SNS 영역*/
+#sns-links{
+    background-image :liner-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.208)), url(images/movie-theater-4213751_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;   
+}
+
+/* 영화 추천하기 섹션*/
+.card-hover:hover{background-color:rgba(127,255,212,0.215);}
+
+/*네비게이션 영역*/
+.nav-link:hover,
+.nav-link.active{color:#ffc107 !important;
+}
+
+/* public/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.gallery {
+    display: flex;
+    overflow-x: auto;
+}
+
+img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
